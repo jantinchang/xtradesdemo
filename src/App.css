@@ -2,6 +2,49 @@
   text-align: center;
 }
 
+.MuiGridListTile-tile {
+  height: unset;
+  overflow: unset;
+  
+}
+
+
+.MuiFilledInput-root {
+  height: 150px;
+  border-radius: 20px !important;
+  align-items: flex-end !important;
+}
+
+.MuiFilledInput-underline:after {
+  border-bottom: 0 !important;
+}
+
+.MuiBackdrop-root {
+  background: transparent !important;
+}
+
+.MuiGridListTile-root {
+  width: 20% !important;
+  margin: 20px;
+  background-color: white;
+  border-radius: 20px;
+  height: 200px !important;
+}
+
+.MuiPaper-root.MuiCard-root.MuiPaper-elevation1.MuiPaper-rounded {
+ height: 100%;
+}
+
+.MuiGridListTile-tile {
+  box-shadow: 0px 20px 16px rgba(117, 128, 146, 0.16);
+border-radius: 16px;
+
+}
+
+h1 {
+  font-size: 1.5em;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
