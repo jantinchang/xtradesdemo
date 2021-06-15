@@ -3,8 +3,8 @@
 }
 
 .MuiGridListTile-tile {
-  height: unset;
-  overflow: unset;
+  height: unset !important;
+  overflow: unset !important;
   
 }
 
