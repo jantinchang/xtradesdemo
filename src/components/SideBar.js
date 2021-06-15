@@ -4,6 +4,8 @@ import "../css/Header.css";
 import Logo from '../assets/xtrade.svg'
 import LogoAlt from '../assets/xtrade1.svg'
 import AppContext from '../context/AppContext';
+import { Card } from '@material-ui/core';
+import Button from '@material-ui/core/Button';
 
 
 
@@ -70,6 +72,9 @@ function SideBar(props) {
 
                         </Menu>
                     </SidebarContent>
+                    {!menuCollapse && <Card style={{ margin: 30, height: 300, backgroundColor: '#E5E5E5' }} >
+                        <Button raised variant="contained" color='primary' style={{ position: 'absolute', left: 60, top: 760, fontSize: 10 }}>Upgrade Membership</Button>
+                    </Card>}
                     <SidebarFooter>
                         <Menu iconShape="square">
                             <MenuItem onClick={menuIconClick} icon={<img src={!menuCollapse ? "https://i.ibb.co/Gn17xFz/Vector.png" : "https://i.ibb.co/cYt3sPt/right.png"} alt="Vector" border="0" />}>Collapse</MenuItem>
